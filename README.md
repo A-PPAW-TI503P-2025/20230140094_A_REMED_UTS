@@ -4,18 +4,6 @@ Aplikasi web untuk mengelola perpustakaan secara online. Pengguna bisa melihat d
 
 ---
 
-## 👨‍💻 Informasi Mahasiswa
-
-| Keterangan | Detail |
-|------------|--------|
-| **Nama** | Mahasiswa |
-| **NIM** | 20230140094 |
-| **Kelas** | A |
-| **Mata Kuliah** | Pengembangan Aplikasi Web |
-| **Tugas** | Remedial UTS |
-
----
-
 ## 📸 Tampilan Aplikasi
 
 ### Halaman Utama (Dashboard)
@@ -113,8 +101,8 @@ Menyimpan catatan siapa meminjam buku apa dan kapan.
 ## 🛠️ Cara Menjalankan Aplikasi
 
 ### Yang Dibutuhkan
-- Node.js (versi 14 ke atas)
-- MySQL (berjalan di port 3307)
+- Node.js
+- MySQL 
 - Database dengan nama `library_system`
 
 ### Langkah 1: Siapkan Database
@@ -152,31 +140,6 @@ Menyimpan catatan siapa meminjam buku apa dan kapan.
    npm start
    ```
 3. Aplikasi akan terbuka di `http://localhost:3001`
-
----
-
-## 📂 Struktur Folder Project
-
-```
-📦 20230140094_A_REMED_UTS
-├── 📁 client/              # Aplikasi tampilan (Frontend)
-│   ├── 📁 public/          # File HTML utama
-│   └── 📁 src/             # Kode React
-│       ├── 📁 components/  # Bagian-bagian tampilan
-│       ├── 📁 pages/       # Halaman-halaman aplikasi
-│       └── 📁 services/    # Penghubung ke server
-│
-├── 📁 server/              # Aplikasi server (Backend)
-│   ├── 📁 config/          # Pengaturan database
-│   ├── 📁 controllers/     # Logika aplikasi
-│   ├── 📁 middleware/      # Pengecekan role user
-│   ├── 📁 migrations/      # Pembuatan tabel
-│   ├── 📁 models/          # Struktur data
-│   ├── 📁 routes/          # Daftar URL API
-│   └── 📁 seeders/         # Data contoh
-│
-└── 📁 screenshot/          # Gambar tampilan aplikasi
-```
 
 ---
 
@@ -230,12 +193,4 @@ Tambahkan header `x-user-role: admin` saat request.
 
 ---
 
-## 📝 Catatan Penting
 
-1. Pastikan MySQL berjalan di port **3307** (atau ubah di `server/config/config.json`)
-2. Untuk mengakses fitur admin, klik tombol "Beralih ke Admin" di navbar
-3. Password database default adalah `1523` (bisa diubah di config)
-
----
-
-Dibuat dengan ❤️ untuk tugas Remedial UTS Pengembangan Aplikasi Web
