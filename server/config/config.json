@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "1523",
+    "database": "library_system",
+    "host": "127.0.0.1",
+    "port": 3307,
+    "dialect": "mysql",
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "root",
+    "password": "1523",
+    "database": "library_system_test",
+    "host": "127.0.0.1",
+    "port": 3307,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "1523",
+    "database": "library_system_production",
+    "host": "127.0.0.1",
+    "port": 3307,
+    "dialect": "mysql"
+  }
+}
